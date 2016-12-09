@@ -1,13 +1,14 @@
 package com.comic.web.base.util;
 
+import javax.servlet.http.HttpServletRequest;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import javax.servlet.http.HttpServletRequest;
 
 public class util
 {	
     // 判断是否 AJAX 请求
     public static boolean useAjax(HttpServletRequest request) {
+
         return "XMLHttpRequest".equalsIgnoreCase(request.getHeader("X-Requested-With"));
     }
 	
