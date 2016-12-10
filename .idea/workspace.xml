@@ -2,11 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880c8e96-6fa3-4c41-879f-f4739655d32c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/comic/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/comic/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/comic/App.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/comic/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/druid-1.0.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/ehcache-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/fastjson-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/framework-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/guice-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/guice-multibindings-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/jackson-annotations-2.6.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/jackson-core-2.6.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/jackson-databind-2.6.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/jsqlparser-0.9.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/log4j-1.2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/mybatis-3.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/mysql-connector-java-5.1.34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/pagehelper-3.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/shiro-all-1.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/shiro-core-1.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/shiro-guice-1.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/slf4j-api-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-context-support-3.2.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/lib/thumbnailator-0.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/spring-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/denied.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/frame/pageInclude.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/resource/add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/resource/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/resource/update.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/role/add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/role/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/role/selectUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/role/update.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/upgrade/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/user/add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/user/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/user/update.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/admin/user/updatePwd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/error/viewException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/test/product_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/test/product_search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/test/show_img.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/test/show_user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/test/show_user1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/test/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/test/up_index_img.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/test/user_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/web/article.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/web/article_block.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/view/web/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comicAdmin/target/comicAdmin/WEB-INF/web.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicDao/target/comicDao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comicDao/target/comicDao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/target/framework-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/framework/target/framework-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicDao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comicDao/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/framework/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="comicDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,24 +193,6 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="framework" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="framework" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -160,68 +211,6 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="comicDemo" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="comicDao" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="comicDao" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="comicAdmin" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="comicAdmin" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="comicAdmin" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -934,7 +923,7 @@
       <option name="presentableId" value="Default" />
       <updated>1481285513040</updated>
       <workItem from="1481285523722" duration="24807000" />
-      <workItem from="1481334614936" duration="1614000" />
+      <workItem from="1481334614936" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="framework+dao">
       <created>1481298538996</created>
@@ -954,7 +943,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26421000" />
+    <option name="totallyTimeSpent" value="26686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -975,11 +964,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41794568" sideWeight="0.46548325" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293979" sideWeight="0.4260355" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32865497" sideWeight="0.49278092" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19723865" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31032217" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.49780288" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.48775893" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293979" sideWeight="0.5739645" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.4952919" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.49026993" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -991,7 +980,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33898306" sideWeight="0.506993" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41794568" sideWeight="0.53451675" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41794568" sideWeight="0.53451675" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
