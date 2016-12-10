@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="comicAdmin" />
         <module name="comicDao" />
         <module name="framework" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="comicAdmin" target="1.6" />
       <module name="comicDao" target="1.5" />
       <module name="comicDemo" target="1.5" />
       <module name="framework" target="1.5" />

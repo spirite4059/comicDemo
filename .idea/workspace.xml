@@ -1,14 +1,654 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="880c8e96-6fa3-4c41-879f-f4739655d32c" name="Default" comment="test_git">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" />
+    <list default="true" id="880c8e96-6fa3-4c41-879f-f4739655d32c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/passwordbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/passwordbox_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/passwordbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/passwordbox_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/passwordbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/passwordbox_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/passwordbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/passwordbox_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/edit_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/edit_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/filesave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/filter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/large_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/large_clipart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/large_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/large_shapes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/large_smartart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/mini_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/mini_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/mini_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/reload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/sum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icons/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/passwordbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/passwordbox_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/passwordbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/passwordbox_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/bg_header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/bg_header_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/bg_header_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/bg_login.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-ads-24-content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-ads-24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-ads-user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-ads-video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-application-ads.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-application-business.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-application-monitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-application-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-application-statictics.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-application-system.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-business-ads.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-business-device.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-business-shop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-business-user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-contextmenu-closeall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-contextmenu-closeother.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-contextmenu-closeself.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-monitor-list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-play-free.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-play-order-checked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-play-order-detail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-play-order-offline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-play-order-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-play-order.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-play-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-statictics-detail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-statictics-device.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-statictics-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-system-area.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-system-help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-system-res.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-system-role.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/images/icons/icon-system-user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/img/progressbar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/comicAdmin_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/comicAdmin_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_3_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/comicAdmin.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/Article.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/ArticleBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/ArticleBlockM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/ArticlePost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/FileMeta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/PageInfoM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/Permission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/Resource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/RoleResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/RoleUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/UpImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/AdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ArticleBlockController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ArticleController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ArticlePostController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/FileController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ImgController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/IndexController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ProductController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ResourceController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/RoleController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ShowController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/ArticleBlockDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/ArticleDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/ArticlePostDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/ResourceDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/RoleDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/RoleResourceDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/RoleUserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/UpImageMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/security/FreemarkerExceptionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/security/ShiroRealm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/security/ShiroTagFreeMarkerConfigurer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ArticleBlockService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ArticlePostService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ArticleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ImageService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ArticleBlockServiceImp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ArticlePostServiceImp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ArticleServiceImp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ImageServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ResourceServiceImp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/RoleServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/UserServiceImp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ResourceService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/RoleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/util/Md5Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/util/SessionUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/util/util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/AuthenticatedTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/GuestTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/HasAnyRolesTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/HasPermissionTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/HasRoleTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/LacksPermissionTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/LacksRoleTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/NotAuthenticatedTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/PermissionTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/PrincipalTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/RoleTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/SecureTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/ShiroTags.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/UserTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/resources/config.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/resources/ehcache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/resources/mybatis-configuration.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/resources/spring-mybatis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/resources/spring-shiro.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/resources/test-spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/spring-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/denied.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/frame/pageInclude.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/resource/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/resource/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/resource/update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/role/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/role/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/role/selectUser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/role/update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/upgrade/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/user/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/user/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/user/update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/user/updatePwd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/error/viewException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/test/product_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/test/product_search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/test/show_img.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/test/show_user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/test/show_user1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/test/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/test/up_index_img.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/test/user_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/web/article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/web/article_block.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/web/index_nag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/modern-business.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/product_search.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/show.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/textareaAutoSize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/up_css/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/up_css/jquery.fileupload-noscript.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/up_css/jquery.fileupload-ui-noscript.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/up_css/jquery.fileupload-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/css/up_css/jquery.fileupload.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/easyloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/frameCommon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/frameUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/jquery.easyui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/jquery.easyui.mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/jquery.xframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-am.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-cz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-jp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-pt_BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-sv_SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/locale/easyui-lang-zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.combo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.combobox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.combogrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.combotree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.combotreegrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.datagrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.datalist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.datebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.datetimebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.datetimespinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.draggable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.droppable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.filebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.linkbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.menubutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.messager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.numberbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.numberspinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.pagination.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.passwordbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.propertygrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.resizable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.searchbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.splitbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.switchbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.textbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.timespinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.treegrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.validatebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/plugins/jquery.window.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/passwordbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/switchbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/black/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/passwordbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/switchbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/bootstrap/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/color.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/passwordbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/switchbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/default/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/passwordbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/switchbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/gray/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/passwordbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/switchbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/material/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/passwordbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/switchbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/metro/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/easyui/themes/mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/html/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/html/adminIndex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/html/post_use.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/html/product_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/html/product_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/html/sample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/article.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/article_block.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/jquery-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/pagination/jquery.bootpag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/pagination/jquery.twbsPagination.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/post_use.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/tools/purl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/tools/static.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/tools/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.fileupload-angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.fileupload-audio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.fileupload-image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.fileupload-jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.fileupload-process.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.fileupload-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.fileupload-validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.fileupload-video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.fileupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.iframe-transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/jquery.ui.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/myuploadfunction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicAdmin/src/main/webapp/js/up_js/vendor/jquery.ui.widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/util.java" afterPath="$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/ResourceMapper.xml" afterPath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/ResourceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleMapper.xml" afterPath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleResourceMapper.xml" afterPath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleResourceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleUserMapper.xml" afterPath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/UserMapper.xml" afterPath="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="comicDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,6 +657,7 @@
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/framework/target/" />
     <ignored path="$PROJECT_DIR$/comicDao/target/" />
+    <ignored path="$PROJECT_DIR$/comicAdmin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,126 +674,7 @@
     <favorites_list name="comicDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ResourceDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/ResourceDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleResourceDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleResourceDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="util.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/BaseServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Md5Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/Md5Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleUserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleUserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicDao/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/ResourceMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-              <folding>
-                <marker date="1481190895770" expanded="true" signature="1241:1290" ph="select * fro... resource" />
-                <marker date="1481190895770" expanded="true" signature="1361:1424" ph="select from resource" />
-                <marker date="1481190895770" expanded="true" signature="1737:1796" ph="delete from " />
-                <marker date="1481190895770" expanded="true" signature="1892:2267" ph="insert into resource... " />
-                <marker date="1481190895770" expanded="true" signature="2356:2551" ph="update resou... " />
-                <marker date="1481190895770" expanded="true" signature="2653:3007" ph="SELECT res.t... USER" />
-                <marker date="1481190895770" expanded="true" signature="3127:3428" ph="SELECT res.t... USER" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,30 +687,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/bean/BaseB.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/serviceImpl/BaseServiceImp.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/serviceImpl/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/util/util.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/BaseDao.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/serviceImpl/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/framework/pom.xml" />
-        <option value="$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/bean/Permission.java" />
-        <option value="$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleDao.java" />
-        <option value="$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/bean/RoleResource.java" />
-        <option value="$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/bean/User.java" />
-        <option value="$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/ResourceDao.java" />
-        <option value="$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleResourceDao.java" />
-        <option value="$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleUserDao.java" />
-        <option value="$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ArticleBlockController.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ArticleBlockService.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ArticlePostService.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ImageService.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ResourceService.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/UserService.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/ArticleBlockDao.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ImgController.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ResourceController.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/ArticlePostDao.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/ResourceDao.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/RoleResourceDao.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/RoleUserDao.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/UpImageMapper.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/BaseServiceImp.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ArticleBlockServiceImp.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/User.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ArticlePostServiceImp.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/resources/test-spring.xml" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/resources/mybatis-configuration.xml" />
         <option value="$PROJECT_DIR$/comicDao/pom.xml" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/SessionUtils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/util.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/UserServiceImp.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ResourceServiceImp.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ImageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ArticleServiceImp.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/security/ShiroRealm.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/RoleResource.java" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/util/SessionUtils.java" />
+        <option value="$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/ResourceMapper.xml" />
+        <option value="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleResourceMapper.xml" />
+        <option value="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleUserMapper.xml" />
+        <option value="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/comicAdmin/src/main/resources/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/comicAdmin/pom.xml" />
       </list>
     </option>
   </component>
@@ -217,6 +766,24 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="framework" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="framework" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -234,17 +801,108 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="comicDemo" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="comicDao" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="comicDao" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="comicAdmin" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="comicAdmin" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="comicAdmin" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1378" />
-    <option name="y" value="-421" />
-    <option name="width" value="1548" />
-    <option name="height" value="972" />
+    <option name="x" value="1485" />
+    <option name="y" value="-408" />
+    <option name="width" value="1529" />
+    <option name="height" value="943" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -271,7 +929,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,27 +951,41 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\bake_code\comicDemo\comicDao\src\main\java\com\comic\web\dao" />
-      <recent name="E:\bake_code\comicDemo\comicDao\src\main\java\com\comic\web\bean" />
-      <recent name="E:\bake_code\comicDemo\comicDao\src\main\resources\com\comic\web\mapping" />
-      <recent name="E:\bake_code\comicDemo\framework\src\main\java\com\comic\web\util" />
-      <recent name="E:\bake_code\comicDemo\framework\src\main\java\com\comic\web\serviceImpl" />
+      <recent name="E:\bake_code\comicDemo\comicAdmin\src\main\webapp\WEB-INF\view" />
+      <recent name="E:\bake_code\comicDemo\comicAdmin\src\main\webapp" />
+      <recent name="E:\bake_code\comicDemo\comicAdmin\src\main\webapp\WEB-INF" />
+      <recent name="E:\bake_code\comicDemo\comicAdmin\src\main\resources" />
+      <recent name="E:\bake_code\comicDemo\comicAdmin\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.admin">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -527,6 +1200,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -621,6 +1295,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -692,6 +1388,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -707,9 +1409,164 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="admin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="comicAdmin:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_comicDemo" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60730" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="comicAdmin:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="test" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="comicAdmin:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_comicDemo_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63620" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="comicAdmin:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.admin" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.test" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringMvcView">
+    <option name="showControllers" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -718,7 +1575,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481285513040</updated>
-      <workItem from="1481285523722" duration="10298000" />
+      <workItem from="1481285523722" duration="24807000" />
+      <workItem from="1481334614936" duration="1053000" />
     </task>
     <task id="LOCAL-00001" summary="framework+dao">
       <created>1481298538996</created>
@@ -727,11 +1585,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481298538996</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test_git">
+      <created>1481298723886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481298723887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10298000" />
+    <option name="totallyTimeSpent" value="25860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,36 +1608,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1378" y="-421" width="1548" height="972" extended-state="0" />
-    <editor active="true" />
+    <frame x="1485" y="-408" width="1529" height="943" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3704572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.49780288" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49706918" sideWeight="0.49780288" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1835781" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41794568" sideWeight="0.46548325" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32865497" sideWeight="0.49278092" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19723865" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.49780288" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.48775893" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.4952919" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.49026993" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2563418" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27547666" sideWeight="0.6738281" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26302573" sideWeight="0.32617188" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33898306" sideWeight="0.506993" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41794568" sideWeight="0.53451675" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.49278092" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -791,233 +1667,526 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/bean/BaseB.java">
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/controller/BaseController.java">
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/UpImageMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/service/BaseService.java">
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/RoleUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/serviceImpl/BaseServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/admin/role/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/UpImageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/bean/RoleUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/bean/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/bean/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/bean/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/bean/RoleResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/ResourceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/ResourceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-          <folding>
-            <marker date="1481190895770" expanded="true" signature="1241:1290" ph="select * fro... resource" />
-            <marker date="1481190895770" expanded="true" signature="1361:1424" ph="select from resource" />
-            <marker date="1481190895770" expanded="true" signature="1737:1796" ph="delete from " />
-            <marker date="1481190895770" expanded="true" signature="1892:2267" ph="insert into resource... " />
-            <marker date="1481190895770" expanded="true" signature="2356:2551" ph="update resou... " />
-            <marker date="1481190895770" expanded="true" signature="2653:3007" ph="SELECT res.t... USER" />
-            <marker date="1481190895770" expanded="true" signature="3127:3428" ph="SELECT res.t... USER" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleResourceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/Md5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/SessionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/BaseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+        <state relative-caret-position="323">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleUserDao.java">
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/resources/test-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/util/util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="323">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicDao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ImageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ArticlePostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/ArticleBlockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ArticlePostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/security/FreemarkerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/security/ShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/util/SessionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2507">
+          <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/RoleResourceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-628">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ImgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ArticleBlockServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ResourceServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/UserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ImageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ArticleServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/ArticlePostServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/bean/RoleResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/jagregory/shiro/freemarker/ShiroTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/resources/mybatis-configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.6.0_45/src.zip!/java/net/PlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="694" column="0" selection-start-line="694" selection-start-column="0" selection-end-line="695" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/module=comicAdmin">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=comicAdmin</OriginalElement>
+          <nodes>
+            <node x="" y="">module=comicAdmin</node>
+            <node x="" y="">fileset=comicAdmin/Spring Application Context</node>
+            <node x="" y="">filePath=E:/bake_code/comicDemo/comicAdmin/src/main/resources/spring-mybatis.xml</node>
+            <node x="" y="">filePath=E:/bake_code/comicDemo/comicAdmin/src/main/webapp/WEB-INF/spring-servlet.xml</node>
+            <node x="" y="">filePath=E:/bake_code/comicDemo/comicAdmin/src/main/resources/spring-shiro.xml</node>
+            <node x="" y="">filePath=E:/bake_code/comicDemo/comicAdmin/src/main/resources/test-spring.xml</node>
+            <node x="" y="">fileset=comicAdmin/MVC application context</node>
+            <node x="" y="">fileset=comicAdmin/MVC spring servlet context</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="278.0" y="101.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.6.0_45/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="661" column="0" selection-start-line="661" selection-start-column="0" selection-end-line="661" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/ResourceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicDao/src/main/java/com/comic/web/dao/RoleResourceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="77" column="55" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/ResourceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <marker date="1481312894150" expanded="true" signature="1237:1286" ph="select * fro... resource" />
+            <marker date="1481312894150" expanded="true" signature="1357:1420" ph="select from resource" />
+            <marker date="1481312894150" expanded="true" signature="1733:1792" ph="delete from " />
+            <marker date="1481312894150" expanded="true" signature="1886:2261" ph="insert into resource... " />
+            <marker date="1481312894150" expanded="true" signature="2348:2543" ph="update resou... " />
+            <marker date="1481312894150" expanded="true" signature="2645:2999" ph="SELECT res.t... USER" />
+            <marker date="1481312894150" expanded="true" signature="3119:3420" ph="SELECT res.t... USER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <marker date="1481312911891" expanded="true" signature="650:798" ph="insert into role... " />
+            <marker date="1481312911891" expanded="true" signature="857:927" ph="update role " />
+            <marker date="1481312911891" expanded="true" signature="995:1028" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleResourceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1481312964700" expanded="true" signature="854:904" ph="delete from " />
+            <marker date="1481312964700" expanded="true" signature="996:1046" ph="select * fro... role_resource" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/RoleUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <marker date="1481312991866" expanded="true" signature="817:863" ph="delete from " />
+            <marker date="1481312991866" expanded="true" signature="951:997" ph="select * fro... role_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/resources/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <marker date="1481313046208" expanded="true" signature="1175:1208" ph="select * fro... user" />
+            <marker date="1481313046208" expanded="true" signature="1510:1570" ph="select * fro... user" />
+            <marker date="1481313046208" expanded="true" signature="1673:1924" ph="select * fro... user" />
+            <marker date="1481313046208" expanded="true" signature="2002:2434" ph="insert into user... " />
+            <marker date="1481313046208" expanded="true" signature="2512:2983" ph="update user " />
+            <marker date="1481313046208" expanded="true" signature="3070:3103" ph="delete from " />
+            <marker date="1481313046208" expanded="true" signature="3162:3195" ph="SELECT * FRO... USER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>comicAdmin:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (comicAdmin)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>comicAdmin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
