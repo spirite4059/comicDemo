@@ -15,7 +15,7 @@
 		<property name="unauthorizedUrl" value="/admin/denied" />
 		<property name="filters">
 			<map>
-				<entry key="authc" value-ref="shiroFormAuthenticationFilter" />
+				<entry key="authc" value-ref="authcFilter" />
 				<!-- <entry key="authUser" value-ref="userInvalidFilter" /> -->
 			</map>
 		</property>
@@ -45,31 +45,29 @@
                 -->
 			</value>
 		</property>
+    </bean>	<!-- 安全管理  -->
 
-    
-    <!-- 安全管理  -->	</bean>
-
-<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
 		<property name="realm" ref="shiroRealm" />
-		<property name="cacheManager" ref="cacheManager" />
+		<!--<property name="cacheManager" ref="cacheManager" />  调试时候注释掉-->
 	</bean>
-	
+	<!-- 自定义登录验证 -->
     <bean id="shiroRealm" class="com.comic.web.security.ShiroRealm">
           <property name="userService" ref="userService"/>
           <property name="resourceService" ref="resourceService"/>
     </bean>
-    
-    <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+	<!-- 上面用的 -->
+	<bean id="userService" class="com.comic.web.service.Impl.UserServiceImp"/>
+	<bean id="resourceService" class="com.comic.web.service.Impl.ResourceServiceImp"/>
+
+	<bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
        <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"/> 
     </bean>
-    
-    <!-- 上面用的 -->
-    <bean id="userService" class="com.comic.web.service.Impl.UserServiceImp"/>
-    <bean id="resourceService" class="com.comic.web.service.Impl.ResourceServiceImp"/>
-
+	
     <!-- 基于Form表单的身份验证过滤器，不配置将也会注册此过虑器，表单中的用户账号、密码及loginurl将采用默认值，建议配置
                      设置一下username和password,修改了默认的设置-->
-	<bean id="shiroFormAuthenticationFilter"  class="com.comic.web.security.ShiroFormAuthenticationFilter">
+	<!--认证用的 filter  -->
+	<bean id="authcFilter"  class="com.comic.web.security.ShiroFormAuthenticationFilter">
 		<!-- 表单中账号的input名称 -->
 		<property name="usernameParam" value="username" />
 		<!-- 表单中密码的input名称 -->

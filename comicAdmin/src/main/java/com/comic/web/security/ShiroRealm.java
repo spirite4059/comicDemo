@@ -1,7 +1,5 @@
 package com.comic.web.security;
 
-import com.comic.web.bean.Resource;
-import com.comic.web.bean.User;
 import com.comic.web.service.ResourceService;
 import com.comic.web.service.UserService;
 import org.apache.shiro.SecurityUtils;
@@ -97,8 +95,10 @@ public class ShiroRealm extends AuthorizingRealm
 			SecurityUtils.getSubject().logout();  //显性调用退出
 			return null;
 		}
-		
-		User user =  (User) principals.getPrimaryPrincipal();	  //这个地方的principles放的什么，怎么放进来的？？cation里面放的？
+
+
+		//应该是authorication 里面添加过了，然后才来调用
+		User user =  (User) principals.getPrimaryPrincipal();
 		SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
 		
 		List<Resource> resourceList = null;
@@ -110,11 +110,12 @@ public class ShiroRealm extends AuthorizingRealm
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		List<String> permissions = new ArrayList<String>();
+		List<String> permissions = new ArrayList<String>(); 	 //必须是字符串的序列
 		for (Resource resource : resourceList) {
 			permissions.add(resource.getUrl());
 		}
-		
+
+		//此处放置的是字符串对应的权限--- list里面都是url字符串，不管其他
 		info.addStringPermissions(permissions);
 		return info;
 	}

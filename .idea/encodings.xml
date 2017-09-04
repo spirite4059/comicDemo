@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/comicAdmin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/comicDao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comicWeb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/framework" charset="UTF-8" />
   </component>
 </project>

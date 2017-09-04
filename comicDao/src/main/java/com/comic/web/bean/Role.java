@@ -18,7 +18,7 @@ public class Role
         return roleName;
     }
 
-    public void setRolename(String roleName) {
+    public void setRoleName(String roleName) {
         this.roleName = roleName == null ? null : roleName.trim();
     }
 

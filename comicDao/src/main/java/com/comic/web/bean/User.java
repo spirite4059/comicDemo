@@ -1,6 +1,7 @@
 package com.comic.web.bean;
 
 import com.comic.web.base.bean.BaseB;
+
 import java.util.Date;
 
 public class User extends BaseB implements java.io.Serializable

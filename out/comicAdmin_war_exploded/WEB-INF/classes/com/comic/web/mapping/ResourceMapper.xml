@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.comic.web.dao.ResourceDao" >
+
+  <resultMap id="resourceResult" type="com.comic.web.bean.Resource" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="url" property="url" jdbcType="VARCHAR" />
+    <result column="text" property="text" jdbcType="VARCHAR" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="parentId" property="parentId" jdbcType="INTEGER" />
+    <result column="isMenu" property="isMenu" jdbcType="INTEGER" />
+    <result column="isVirtual" property="isVirtual" jdbcType="INTEGER" />
+    <result column="menuCls" property="menuCls" jdbcType="VARCHAR" />
+    <result column="sort" property="sort" jdbcType="INTEGER" />
+    <result column="roleId" property="roleId" jdbcType="INTEGER" />
+    <result column="userId" property="userId" jdbcType="INTEGER" />
+  </resultMap>
+  
+  
+   <sql id="Base_Column_List" >
+    	id, url, text, remark, parentId, isMenu, isVirtual, menuCls, sort, roleId, userId
+   </sql>
+  
+  	<select id="getTreeList" resultMap="resourceResult" parameterType="int">
+		select * from resource where parentId=#{parentId}
+	</select>
+  
+  	<select id="getList" resultMap="resourceResult">
+  		select 
+		 <include refid="Base_Column_List" />
+		from resource 
+	</select>
+	
+	<!-- 通过id选择出一个实体类来 -->
+	<select id="getEntityById" resultMap="resourceResult" parameterType="INTEGER">
+ 		select 
+	 	<include refid="Base_Column_List" />  
+			from resource 
+		<where>
+			id = #{id}  
+		</where>
+	</select>	
+
+    <delete id="deleteByEntity" parameterType="java.lang.Integer" >
+    	delete from resource
+    	where id = #{id,jdbcType=INTEGER}
+    </delete>
+  
+  
+    <insert id="insert" parameterType="com.comic.web.bean.Resource">
+	   insert into resource(
+	            text,
+	            url,
+	            remark,
+	            parentId,
+	            isMenu,
+	            isVirtual,
+	            menuCls
+	            ) values (
+	            #{text},
+	            #{url},
+	            #{remark},
+	            #{parentId},
+	            #{isMenu},
+	            #{isVirtual},
+	            #{menuCls}
+	            )
+    </insert>
+
+    <update id="update" parameterType="com.comic.web.bean.Resource">
+		update resource 
+		set 
+			text=#{text},
+			url=#{url},
+			parentId=#{parentId},
+			isMenu=#{isMenu},
+			isVirtual=#{isVirtual},
+			menuCls=#{menuCls},
+			remark=#{remark} 
+		where 
+			id = #{id}
+	</update>
+	
+	<select id="getUserMenuResourceList" resultMap="resourceResult" parameterType="int">
+		SELECT res.text,res.url,res.isMenu,res.menuCls,res.parentId,res.id,res.isVirtual 
+		FROM user u
+		LEFT JOIN role_user ru 
+			ON u.id=ru.userId 
+		LEFT JOIN role_resource rr 
+			ON ru.roleId=rr.roleId
+		LEFT JOIN resource res
+			ON rr.resourceId=res.id
+		WHERE res.isMenu=1 and res.url is not null and res.url!='' and u.id=#{userId}  
+		ORDER BY sort ASC 
+	</select>
+	
+	<!-- 用户权限：可以是所有 -->
+	<select id="getUserResourceList" resultMap="resourceResult" parameterType="int">
+		SELECT res.text,res.url,res.isMenu,res.menuCls,res.parentId,res.id 
+		FROM user u
+		LEFT JOIN role_user ru 
+			ON u.id=ru.userId 
+		LEFT JOIN role_resource rr 
+			ON ru.roleId=rr.roleId
+		LEFT JOIN resource res
+			ON rr.resourceId=res.id
+		WHERE res.url is not null and res.url!='' and u.id=#{userId}  
+	</select>
+  
+</mapper>
+
+
+
+
+

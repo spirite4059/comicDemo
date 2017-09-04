@@ -20,7 +20,8 @@
    <sql id="Base_Column_List" >
     	id, url, text, remark, parentId, isMenu, isVirtual, menuCls, sort, roleId, userId
    </sql>
-  
+
+	<!--直接选择子节点-->
   	<select id="getTreeList" resultMap="resourceResult" parameterType="int">
 		select * from resource where parentId=#{parentId}
 	</select>
@@ -83,7 +84,7 @@
 	
 	<select id="getUserMenuResourceList" resultMap="resourceResult" parameterType="int">
 		SELECT res.text,res.url,res.isMenu,res.menuCls,res.parentId,res.id,res.isVirtual 
-		FROM USER u 
+		FROM user u
 		LEFT JOIN role_user ru 
 			ON u.id=ru.userId 
 		LEFT JOIN role_resource rr 
@@ -97,7 +98,7 @@
 	<!-- 用户权限：可以是所有 -->
 	<select id="getUserResourceList" resultMap="resourceResult" parameterType="int">
 		SELECT res.text,res.url,res.isMenu,res.menuCls,res.parentId,res.id 
-		FROM USER u 
+		FROM user u
 		LEFT JOIN role_user ru 
 			ON u.id=ru.userId 
 		LEFT JOIN role_resource rr 

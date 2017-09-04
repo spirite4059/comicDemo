@@ -1,16 +1,12 @@
 package com.comic.web.bean;
 
-public class Permission {
+public class Permission
+{
     private Integer id;
-
     private String name;
-
     private String type;
-
     private String url;
-
     private Integer parentid;
-
     private String code;
 
     public Integer getId() {

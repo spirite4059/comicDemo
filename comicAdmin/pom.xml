@@ -12,8 +12,8 @@
     <name>comicAdmin</name>
     <url>http://maven.apache.org</url>
 
-    <dependencies>
 
+    <dependencies>
         <dependency>
             <groupId>com.comic</groupId>
             <artifactId>comicDao</artifactId>

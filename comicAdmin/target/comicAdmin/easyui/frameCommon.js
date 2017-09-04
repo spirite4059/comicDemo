@@ -57,6 +57,7 @@ function add(){
 	//$("#add_status,#add_source,#add_type").combobox('setValue','1');
 	//$("#add_screenNum").combobox('setValue','1');
 	addDefaultCheck();
+	return false; //尝试产生滚动条
 }
 
 function addDefaultCheck(){}  
@@ -174,7 +175,7 @@ function queryWithCode(){
 	query();
 }
 
-//?? 什么地方定义的??  加了参数做查询  
+//重新加载并提交参数
 function query(){
 	grid.datagrid('reload',$("#queryForm").serializeObject());	
 }
@@ -182,11 +183,12 @@ function query(){
 //带有校验唯一性的保存
 function addCheckSave(url){
 	if(addForm.form('validate')){
-		$("#add_save").linkbutton("disable");
+		//$("#add_save").linkbutton("disable");
 		$.post( url,$("#addForm").serializeObject(),addCheckCallback,'json');		
 	}
 }
 
+//返回失败条件
 function addCheckCallback(data){
 	if(!data.status){
 		var mes = data.msg;
@@ -215,7 +217,7 @@ function addCallback(data){
 
 function addSave(url){
 	if(addForm.form('validate')){
-		$("#add_save").linkbutton("disable");
+		//$("#add_save").linkbutton("disable");
 		$.post( url,$("#addForm").serializeObject(),addCallback,'json');		
 	}
 }

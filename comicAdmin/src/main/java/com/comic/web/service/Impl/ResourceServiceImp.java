@@ -2,7 +2,6 @@ package com.comic.web.service.Impl;
 
 import com.comic.web.base.dao.BaseDao;
 import com.comic.web.base.serviceImpl.BaseServiceImpl;
-import com.comic.web.bean.Resource;
 import com.comic.web.dao.ResourceDao;
 import com.comic.web.service.ResourceService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,15 +25,16 @@ public class ResourceServiceImp  extends BaseServiceImpl<Resource> implements Re
 	}
 	
 	
-	/**
-	 * 递归查询
-	 * @param parentId
-	 * @return
-	 * @throws Exception 
-	 */
+	/****
+	 * 递归查询   ---  list[resource]
+	 *                         child[resource]
+	 *                                child---resource
+	 *                         child --resource
+	 *                                child---resource
+	 ****/
 	public List<Resource> getTreeList(int parentId,List<Resource> treeList) throws Exception
 	{
-		List<Resource> resourceList = resourceDao.getTreeList(parentId);
+		List<Resource> resourceList = resourceDao.getTreeList(parentId);  	//默认是-1
 		for (Resource resource : resourceList) {
 			List<Resource> subList = resourceDao.getTreeList(resource.getId());
 			if(subList.size()>=0){
@@ -93,7 +93,7 @@ public class ResourceServiceImp  extends BaseServiceImpl<Resource> implements Re
 			//从treeMap里面找出来父亲节点
 			Resource pResource = treeMap.get(parentId);
 			
-			//没找到父节点，掠过
+			//没找到父节点，掠过  ??如果菜单编号有问题，会出现无法显示的问题
 			if(null != pResource)
 			{
 				if(null == pResource.getChildren())

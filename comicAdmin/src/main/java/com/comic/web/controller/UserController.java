@@ -76,7 +76,7 @@ public class UserController extends BaseController
 	}
 	
 	
-	//请求分页;easyui自动进行处理
+	//请求分页;easyui使用mybatis pageHelper进行的分页
 	@RequestMapping("/queryList")
 	@ResponseBody
 	public Map<String,Object> queryList(int page,int rows,User user) throws Exception
@@ -92,16 +92,16 @@ public class UserController extends BaseController
 		data.put("total", 		pageInfo.getTotal());
 		return data;
 	}
-	
-	@RequestMapping("/insert")
+
+	@RequestMapping("/userSave")
 	@ResponseBody
-	public Map<String,Object> save(User user){
+	public Map<String,Object>userSave(User user){
 		Map<String,Object> result = this.success(null);
 		try{
 			User u = userService.getUserByUserName(user.getId(), user.getUserName());
 			if(u == null || "".equals(u)){
 				user.setCreateTime(new Date());
-				user.setPassword(Md5Util.md5(user.getPassword()));
+				user.setPassword(user.getPassword());//(Md5Util.md5(user.getPassword()));
 //				user.setStatus(1);
 				userService.insert(user);
 			}else{
