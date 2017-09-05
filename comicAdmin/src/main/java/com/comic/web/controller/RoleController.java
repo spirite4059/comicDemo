@@ -1,11 +1,11 @@
 package com.comic.web.controller;
 
 import com.comic.web.base.controller.BaseController;
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import com.comic.web.bean.Role;
 import com.comic.web.bean.RoleResource;
 import com.comic.web.bean.User;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.comic.web.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -55,9 +55,9 @@ public class RoleController extends BaseController {
 	}
 	
 	
-	@RequestMapping("/insert")
+	@RequestMapping("/saveRoleUser")
 	@ResponseBody
-	public Map<String,Object> save(Role role){
+	public Map<String,Object> saveRoleUser(Role role){
 		Map<String,Object> result = this.success(null);
 		try{
 			roleService.insert(role);
@@ -102,7 +102,7 @@ public class RoleController extends BaseController {
 	@RequestMapping("/gotoSelectedUserByRoleId")
 	public String gotoSelectedUserByRoleId(Model model,int roleId)throws Exception{
 		model.addAttribute("roleId",roleId);
-		return "role/selectUser";
+		return "admin/role/selectUser";
 	}
 	
 	/**

@@ -1,7 +1,6 @@
 package com.comic.web.dao;
 
 import com.comic.web.base.dao.BaseDao;
-import com.comic.web.bean.Resource;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

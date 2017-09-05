@@ -8,14 +8,14 @@
 		<result property="remark" column="remark" />
 	</resultMap>
 
-	<select id="getListByEntity" resultMap="Role" parameterType="Role">
+	<select id="getListByEntity" resultMap="Role" parameterType="com.comic.web.bean.Role">
 		select * from role where 1=1
 		<if test="roleName!=null and roleName!=''">
             and roleName like CONCAT('%',#{roleName},'%')
 		</if>
 	</select>
 	
-	<insert id="save" parameterType="Role">
+	<insert id="insert" parameterType="com.comic.web.bean.Role">
 	   insert into role(
 	            roleName,
 	            remark
@@ -25,11 +25,11 @@
 	            )
 	</insert>
 	
-	<update id="update" parameterType="Role">
+	<update id="update" parameterType="com.comic.web.bean.Role">
 		update role set roleName=#{roleName},remark=#{remark} where id = #{id}
 	</update>
 	
-	<delete id="deleteByEntity" parameterType="Role">
+	<delete id="deleteByEntity" parameterType="com.comic.web.bean.Role">
 	  delete from role where id = #{id}
 	</delete>
 </mapper>

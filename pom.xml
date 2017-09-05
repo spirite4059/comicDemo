@@ -126,6 +126,7 @@
       <module>framework</module>
         <module>comicDao</module>
         <module>comicAdmin</module>
+        <module>comicWeb</module>
     </modules>
 
 </project>

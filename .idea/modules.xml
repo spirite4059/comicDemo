@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/comicAdmin/comicAdmin.iml" filepath="$PROJECT_DIR$/comicAdmin/comicAdmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/comicDao/comicDao.iml" filepath="$PROJECT_DIR$/comicDao/comicDao.iml" />
       <module fileurl="file://$PROJECT_DIR$/comicDemo.iml" filepath="$PROJECT_DIR$/comicDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comicWeb/comicWeb.iml" filepath="$PROJECT_DIR$/comicWeb/comicWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
     </modules>
   </component>

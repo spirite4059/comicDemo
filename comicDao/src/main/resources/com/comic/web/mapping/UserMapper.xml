@@ -50,7 +50,7 @@
 		order by createTime desc
 	</select>
 	
-	<insert id="save" parameterType="com.comic.web.bean.User">
+	<insert id="insert" parameterType="com.comic.web.bean.User">
 	   insert into user(
 	            userName,
 	            password,
@@ -105,7 +105,7 @@
 	</delete>
 
     <select id="getUsers" resultMap="User">
-		SELECT * FROM USER WHERE status=1 
+		SELECT * FROM user WHERE status=1
 	</select>
 
   

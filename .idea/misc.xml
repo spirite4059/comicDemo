@@ -5,6 +5,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/comicAdmin" />
+    <file type="web" url="file://$PROJECT_DIR$/comicWeb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

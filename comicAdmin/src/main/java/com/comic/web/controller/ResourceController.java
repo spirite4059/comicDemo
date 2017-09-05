@@ -1,7 +1,6 @@
 package com.comic.web.controller;
 
 import com.comic.web.base.controller.BaseController;
-import com.comic.web.bean.Resource;
 import com.comic.web.service.ResourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -31,7 +30,7 @@ public class ResourceController extends BaseController {
 	public List<Resource> queryList() throws Exception{
 		int parentId = -1;
 		List<Resource> treeList = new ArrayList<Resource>();
-		return resourceService.getTreeList(parentId, treeList);
+		return resourceService.getTreeList(parentId, treeList);  	//得到树形结构
 	}
 	
 	
