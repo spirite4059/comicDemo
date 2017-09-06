@@ -32,7 +32,11 @@
       <module name="comicAdmin" target="1.6" />
       <module name="comicDao" target="1.5" />
       <module name="comicDemo" target="1.5" />
+<<<<<<< HEAD
+      <module name="comicWeb" target="1.5" />
+=======
       <module name="comicWeb" target="1.6" />
+>>>>>>> e29648262ece23520a436653a0a483308922a5ea
       <module name="framework" target="1.5" />
     </bytecodeTargetLevel>
   </component>
