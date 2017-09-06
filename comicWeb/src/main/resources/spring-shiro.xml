@@ -32,7 +32,9 @@
 				/web/home = anon
 				/index = anon
 				/web/publicCai/* = anon
+				/Article/* = anon
 				/publicCai/* = anon
+				/Test/*=anon
 
 				/web/logout = logout
 				/** = authc
