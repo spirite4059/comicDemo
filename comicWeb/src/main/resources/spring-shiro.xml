@@ -38,7 +38,7 @@
 
 				/web/logout = logout
 				/** = authc
-				 
+				/wokao/update=authc
 				 <!-- 
 				/index = anon
                 /unauthorized = anon
