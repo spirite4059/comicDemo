@@ -96,8 +96,6 @@ $(function(){
 		var content_str="";
 		var option_str="";
 		var article_list=data.list;
-
-
 		
 		for(var index in article_list)
 		{
