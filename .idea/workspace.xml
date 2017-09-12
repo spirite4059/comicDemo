@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="880c8e96-6fa3-4c41-879f-f4739655d32c" name="Default" comment="">
+    <list default="true" id="880c8e96-6fa3-4c41-879f-f4739655d32c" name="Default" comment="test_git">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/userLoginFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/IndexController.java" afterPath="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/IndexController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicWeb/src/main/resources/spring-shiro.xml" afterPath="$PROJECT_DIR$/comicWeb/src/main/resources/spring-shiro.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/article.html" afterPath="$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/web/article.html" afterPath="$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/web/article.html" />
     </list>
     <ignored path="comicDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,50 +39,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/web/article.html">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="48" column="82" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="82" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/TestController.java">
+      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/controller/BaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/article.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-              <folding>
-                <marker date="1505061614748" expanded="false" signature="4849:4861" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiroFormAuthenticationFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#870#871#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,9 +62,47 @@
       <file leaf-file-name="ShiroRealm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+            <state relative-caret-position="305">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1398#1399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShiroTagFreeMarkerConfigurer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroTagFreeMarkerConfigurer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShiroFormAuthenticationFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+              <folding>
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userLoginFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/userLoginFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,48 +110,28 @@
       <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/js/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3534">
-              <caret line="195" column="12" selection-start-line="195" selection-start-column="12" selection-end-line="195" selection-end-column="12" />
+            <state relative-caret-position="134">
+              <caret line="237" column="20" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_use.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/js/post_use.js">
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2228">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="-32">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comicWeb/src/main/resources/spring-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticlePostController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/ArticlePostController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="779">
+              <caret line="56" column="90" selection-start-line="56" selection-start-column="90" selection-end-line="56" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -169,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/comicAdmin/src/main/webapp/WEB-INF/view/web/article.html" />
         <option value="$PROJECT_DIR$/.idea/pom.xml" />
         <option value="$PROJECT_DIR$/comicAdmin/pom.xml" />
         <option value="$PROJECT_DIR$/comicWeb/pom.xml" />
@@ -202,7 +193,6 @@
         <option value="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/webPublicCaiController.java" />
         <option value="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/service/PublicCaiService.java" />
         <option value="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/service/Impl/WebPublicCaiServiceImp.java" />
-        <option value="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/UserService.java" />
         <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/UserController.java" />
         <option value="$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/spring-servlet.xml" />
@@ -213,13 +203,15 @@
         <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/PublicCaiDao.java" />
         <option value="$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/PublicCaiController.java" />
         <option value="$PROJECT_DIR$/comicDao/src/main/resources/com/comic/web/mapping/PublicCaiMapper.xml" />
-        <option value="$PROJECT_DIR$/comicWeb/src/main/webapp/js/article.js" />
         <option value="$PROJECT_DIR$/comicWeb/src/main/webapp/js/public_cai.js" />
         <option value="$PROJECT_DIR$/comicWeb/src/main/resources/test-spring.xml" />
         <option value="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/TestController.java" />
         <option value="$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/web/article.html" />
         <option value="$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/article.html" />
         <option value="$PROJECT_DIR$/comicWeb/src/main/resources/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/comicWeb/src/main/webapp/js/article.js" />
+        <option value="$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/userLoginFilter.java" />
       </list>
     </option>
   </component>
@@ -300,17 +292,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -493,36 +474,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comicDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comicDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comicWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -583,11 +534,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comicDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comicDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comicWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
         <subPane />
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1257,6 +1249,8 @@
       <workItem from="1504532860049" duration="691000" />
       <workItem from="1504704434882" duration="4114000" />
       <workItem from="1505059338690" duration="3709000" />
+      <workItem from="1505141480389" duration="2879000" />
+      <workItem from="1505216750863" duration="9088000" />
     </task>
     <task id="LOCAL-00001" summary="framework+dao">
       <created>1481298538996</created>
@@ -1276,7 +1270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190766000" />
+    <option name="totallyTimeSpent" value="202733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1297,7 +1291,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713178" sideWeight="0.49694324" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3137255" sideWeight="0.55655" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44610777" sideWeight="0.4828125" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31937984" sideWeight="0.67883706" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24394184" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.49780288" order="2" side_tool="false" content_ui="tabs" />
@@ -1306,18 +1300,18 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.4820825" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30546874" sideWeight="0.5578231" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859375" sideWeight="0.5578231" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26809454" sideWeight="0.44217688" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24889217" sideWeight="0.49546486" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24889217" sideWeight="0.50453514" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4775449" sideWeight="0.44344997" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44610777" sideWeight="0.5171875" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27346277" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19311377" sideWeight="0.49278092" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1349,39 +1343,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java</url>
           <line>87</line>
           <properties />
           <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroRealm.java</url>
@@ -1405,7 +1369,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="57" />
+      <option name="time" value="64" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1414,133 +1378,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/service/WebPublicCaiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/UserInvalidFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroTagFreeMarkerConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/bean/ArticleBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/bean/PageInfoM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="155" column="30" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-402">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/resources/tag-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/css/sweetalert.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9592" selection-start-line="0" selection-start-column="9592" selection-end-line="0" selection-end-column="9592" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/dao/PublicCaiDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comicAdmin/src/main/java/com/comic/web/service/Impl/PublicCaiServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1623,7 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,33 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/product_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1665,9 +1474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1675,7 +1481,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/up_index_img.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/user_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/show_user1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/show_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/show_img.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/js/post_use.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/web/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="82" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -1687,121 +1548,226 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/up_index_img.html">
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/resources/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="67">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/user_list.html">
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="95">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/test.html">
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-796">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/show_user1.html">
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/spring-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/show_user.html">
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/product_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-71">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/show_img.html">
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/ArticleBlockController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+        <state relative-caret-position="95">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state relative-caret-position="1482">
+          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/js/post_use.js">
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/FreemarkerExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2228">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="304">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/js/article.js">
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/PermissionDirective.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3534">
-          <caret line="195" column="12" selection-start-line="195" selection-start-column="12" selection-end-line="195" selection-end-column="12" />
+        <state relative-caret-position="190">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/web/article.html">
+    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/comic/web/base/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="48" column="82" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="82" />
+        <state relative-caret-position="228">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.4/shiro-all-1.2.4.jar!/org/apache/shiro/web/filter/authc/LogoutFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/resources/mybatis-configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.4/shiro-all-1.2.4.jar!/org/apache/shiro/web/filter/authc/FormAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.4/shiro-all-1.2.4.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.4/shiro-all-1.2.4.jar!/org/apache/shiro/web/servlet/AdviceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.4/shiro-all-1.2.4.jar!/org/apache/shiro/web/filter/AccessControlFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/resources/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="56" column="90" selection-start-line="56" selection-start-column="90" selection-end-line="56" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/WEB-INF/view/test/article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-          <folding>
-            <marker date="1505061614748" expanded="false" signature="4849:4861" ph="..." />
-          </folding>
+        <state relative-caret-position="-32">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/UserInvalidFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroFormAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
           <folding>
+            <element signature="e#800#801#0" expanded="true" />
             <element signature="e#870#871#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/resources/spring-shiro.xml">
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/ShiroTagFreeMarkerConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="104">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/webapp/js/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="237" column="20" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comicWeb/src/main/java/com/comic/web/security/userLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
