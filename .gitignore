@@ -1,7 +1,0 @@
-*.class
-*.[oa]
-*.[bB]
-/target
-target/
-/.idea
-*.jar
