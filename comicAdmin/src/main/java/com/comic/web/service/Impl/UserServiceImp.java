@@ -2,6 +2,7 @@ package com.comic.web.service.Impl;
 
 import com.comic.web.base.dao.BaseDao;
 import com.comic.web.base.serviceImpl.BaseServiceImpl;
+import com.comic.web.bean.User;
 import com.comic.web.dao.UserDao;
 import com.comic.web.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

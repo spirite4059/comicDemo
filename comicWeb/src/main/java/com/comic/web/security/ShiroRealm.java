@@ -1,5 +1,6 @@
 package com.comic.web.security;
 
+
 import com.comic.web.bean.Resource;
 import com.comic.web.bean.User;
 import com.comic.web.service.ResourceService;
@@ -59,7 +60,7 @@ public class ShiroRealm extends AuthorizingRealm
 	protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException 
 	{						     //这个token是在form的验证 filter生成的的pass/user token
 		String userName=(String) token.getPrincipal();  			//从form里面获得的username
-		User user = null;	
+		User user = null;
 		
 		SimpleAuthenticationInfo simpleAuthenticationInfo = null;	
 		try

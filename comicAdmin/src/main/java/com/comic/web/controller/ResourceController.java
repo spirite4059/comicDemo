@@ -1,6 +1,7 @@
 package com.comic.web.controller;
 
 import com.comic.web.base.controller.BaseController;
+import com.comic.web.bean.Resource;
 import com.comic.web.service.ResourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

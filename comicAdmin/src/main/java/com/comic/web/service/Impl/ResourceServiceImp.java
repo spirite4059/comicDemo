@@ -2,11 +2,11 @@ package com.comic.web.service.Impl;
 
 import com.comic.web.base.dao.BaseDao;
 import com.comic.web.base.serviceImpl.BaseServiceImpl;
+import com.comic.web.bean.Resource;
 import com.comic.web.dao.ResourceDao;
 import com.comic.web.service.ResourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.*;
 import java.util.Map.Entry;
 
@@ -19,7 +19,7 @@ public class ResourceServiceImp  extends BaseServiceImpl<Resource> implements Re
 	private ResourceDao resourceDao;	//文章块的数据操作类
 
 	@Override
-	protected BaseDao<Resource> getDao() 
+	protected BaseDao<Resource> getDao()
 	{
 		return resourceDao;
 	}

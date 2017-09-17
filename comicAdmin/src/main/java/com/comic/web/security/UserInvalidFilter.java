@@ -8,6 +8,8 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+
+import com.comic.web.bean.User;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 

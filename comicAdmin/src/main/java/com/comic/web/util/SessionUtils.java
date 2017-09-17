@@ -1,5 +1,7 @@
 package com.comic.web.util;
 
+import com.comic.web.bean.User;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 

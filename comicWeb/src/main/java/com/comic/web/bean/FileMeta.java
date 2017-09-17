@@ -2,7 +2,6 @@ package com.comic.web.bean;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-
 //ignore "bytes" when return json format
 @JsonIgnoreProperties({"bytes"}) 
 public class FileMeta {
