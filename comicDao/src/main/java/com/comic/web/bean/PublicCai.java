@@ -216,8 +216,9 @@ public class PublicCai {
     public String getContent() {
         return content;
     }
-
-    public void setContent(String content) {
+//测试提交
+    public void setContent(String content)
+    {
         this.content = content == null ? null : content.trim();
     }
 }
