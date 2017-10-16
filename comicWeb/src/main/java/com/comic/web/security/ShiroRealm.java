@@ -48,14 +48,12 @@ public class ShiroRealm extends AuthorizingRealm
 	public void setResourceService(ResourceService resourceService) {
 		this.resourceService = resourceService;
 	}
-	
 
 	@Override
 	public void setName(String name) {
 		super.setName("ShiroRealm");
 	}
-	
-	
+
 	//密码账号验证---会把异常直接写入到request里面
 	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException 
@@ -98,20 +96,21 @@ public class ShiroRealm extends AuthorizingRealm
 			return null;
 		}
 
-
 		//应该是authorication 里面添加过了，然后才来调用
 		User user =  (User) principals.getPrimaryPrincipal();
 		SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-		
+
 		List<Resource> resourceList = null;
-		
+
 		logger.debug("当前：doGetAuthorizationInfo");
-		
+
 		try {
-			resourceList = resourceService.getUserResourceList(user.getId());   
-		} catch (Exception e) {
+			resourceList = resourceService.getUserResourceList(user.getId());
+		} catch (Exception e)
+		{
 			e.printStackTrace();
 		}
+
 		List<String> permissions = new ArrayList<String>(); 	 //必须是字符串的序列
 		for (Resource resource : resourceList) {
 			permissions.add(resource.getUrl());
