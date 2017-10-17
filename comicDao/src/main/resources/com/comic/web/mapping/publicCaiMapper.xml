@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.comic.web.dao.PublicCaiDao" >
+
+  <resultMap id="BaseResultMap" type="com.comic.web.bean.PublicCai" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="des" property="des" jdbcType="VARCHAR" />
+    <result column="author" property="author" jdbcType="VARCHAR" />
+    <result column="op1" property="op1" jdbcType="VARCHAR" />
+    <result column="op2" property="op2" jdbcType="VARCHAR" />
+    <result column="op3" property="op3" jdbcType="VARCHAR" />
+    <result column="op4" property="op4" jdbcType="VARCHAR" />
+    <result column="op5" property="op5" jdbcType="VARCHAR" />
+    <result column="op6" property="op6" jdbcType="VARCHAR" />
+    <result column="op1_num" property="op1Num" jdbcType="INTEGER" />
+    <result column="op2_num" property="op2Num" jdbcType="INTEGER" />
+    <result column="op3_num" property="op3Num" jdbcType="INTEGER" />
+    <result column="op4_num" property="op4Num" jdbcType="INTEGER" />
+    <result column="op5_num" property="op5Num" jdbcType="INTEGER" />
+    <result column="op6_num" property="op6Num" jdbcType="INTEGER" />
+    <result column="my_select" property="mySelect" jdbcType="INTEGER" />
+    <result column="creat_date" property="creatDate" jdbcType="TIMESTAMP" />
+    <result column="result_date" property="resultDate" jdbcType="TIMESTAMP" />
+    <result column="use_op_num" property="useOpNum" jdbcType="INTEGER" />
+    <result column="result_op_num" property="resultOpNum" jdbcType="INTEGER" />
+    <result column="cai_kind" property="caiKind" jdbcType="INTEGER" />
+    <result column="state" property="state" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.comic.web.bean.PublicCai" extends="BaseResultMap" >
+    <result column="content" property="content" jdbcType="LONGVARCHAR" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, title, des, author, op1, op2, op3, op4, op5, op6, op1_num, op2_num, op3_num,
+    op4_num, op5_num, op6_num,my_select, creat_date, result_date, use_op_num, result_op_num, cai_kind,
+    state
+  </sql>
+
+  <sql id="Blob_Column_List" >
+    content
+  </sql>
+
+
+  <select id="getListByEntity" resultMap="BaseResultMap" parameterType="com.comic.web.bean.PublicCai">
+    select * from public_cai
+    <where>
+      1=1
+      <if test="id!=null">
+        and id =#{id}
+      </if>
+    </where>
+    order by creat_date desc
+  </select>
+
+
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from public_cai
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from public_cai
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="insert" parameterType="com.comic.web.bean.PublicCai" >
+    insert into public_cai
+    ( title, des,content,
+      author, op1, op2, op3,op4, op5, op6,
+      op1_num, op2_num, op3_num,op4_num, op5_num, op6_num,my_select,
+      creat_date,result_date, use_op_num, result_op_num,
+      cai_kind, state
+      )
+    values (
+      #{title}, #{des},#{content},
+      #{author}, #{op1}, #{op2}, #{op3},#{op4}, #{op5}, #{op6},
+      #{op1Num}, #{op2Num}, #{op3Num}, #{op4Num},#{op5Num},#{op6Num},#{mySelect}
+      #{creatDate},#{resultDate}, #{useOpNum}, #{resultOpNum},
+      #{caiKind}, #{state}
+      )
+  </insert>
+
+  <insert id="insertSelective" parameterType="com.comic.web.bean.PublicCai" >
+    insert into public_cai
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="title != null" >
+        title,
+      </if>
+      <if test="des != null" >
+        des,
+      </if>
+      <if test="author != null" >
+        author,
+      </if>
+      <if test="op1 != null" >
+        op1,
+      </if>
+      <if test="op2 != null" >
+        op2,
+      </if>
+      <if test="op3 != null" >
+        op3,
+      </if>
+      <if test="op4 != null" >
+        op4,
+      </if>
+      <if test="op5 != null" >
+        op5,
+      </if>
+      <if test="op6 != null" >
+        op6,
+      </if>
+      <if test="op1Num != null" >
+        op1_num,
+      </if>
+      <if test="op2Num != null" >
+        op2_num,
+      </if>
+      <if test="op3Num != null" >
+        op3_num,
+      </if>
+      <if test="op4Num != null" >
+        op4_num,
+      </if>
+      <if test="op5Num != null" >
+        op5_num,
+      </if>
+      <if test="op6Num != null" >
+        op6_num,
+      </if>
+      <if test="creatDate != null" >
+        creat_date,
+      </if>
+      <if test="resultDate != null" >
+        result_date,
+      </if>
+      <if test="useOpNum != null" >
+        use_op_num,
+      </if>
+      <if test="resultOpNum != null" >
+        result_op_num,
+      </if>
+      <if test="caiKind != null" >
+        cai_kind,
+      </if>
+      <if test="state != null" >
+        state,
+      </if>
+      <if test="content != null" >
+        content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="title != null" >
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="des != null" >
+        #{des,jdbcType=VARCHAR},
+      </if>
+      <if test="author != null" >
+        #{author,jdbcType=VARCHAR},
+      </if>
+      <if test="op1 != null" >
+        #{op1,jdbcType=VARCHAR},
+      </if>
+      <if test="op2 != null" >
+        #{op2,jdbcType=VARCHAR},
+      </if>
+      <if test="op3 != null" >
+        #{op3,jdbcType=VARCHAR},
+      </if>
+      <if test="op4 != null" >
+        #{op4,jdbcType=VARCHAR},
+      </if>
+      <if test="op5 != null" >
+        #{op5,jdbcType=VARCHAR},
+      </if>
+      <if test="op6 != null" >
+        #{op6,jdbcType=VARCHAR},
+      </if>
+      <if test="op1Num != null" >
+        #{op1Num,jdbcType=INTEGER},
+      </if>
+      <if test="op2Num != null" >
+        #{op2Num,jdbcType=INTEGER},
+      </if>
+      <if test="op3Num != null" >
+        #{op3Num,jdbcType=INTEGER},
+      </if>
+      <if test="op4Num != null" >
+        #{op4Num,jdbcType=INTEGER},
+      </if>
+      <if test="op5Num != null" >
+        #{op5Num,jdbcType=INTEGER},
+      </if>
+      <if test="op6Num != null" >
+        #{op6Num,jdbcType=INTEGER},
+      </if>
+      <if test="creatDate != null" >
+        #{creatDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="resultDate != null" >
+        #{resultDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="useOpNum != null" >
+        #{useOpNum,jdbcType=INTEGER},
+      </if>
+      <if test="resultOpNum != null" >
+        #{resultOpNum,jdbcType=INTEGER},
+      </if>
+      <if test="caiKind != null" >
+        #{caiKind,jdbcType=INTEGER},
+      </if>
+      <if test="state != null" >
+        #{state,jdbcType=INTEGER},
+      </if>
+      <if test="content != null" >
+        #{content,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+
+  <update id="update" parameterType="com.comic.web.bean.PublicCai" >
+    update public_cai
+    <set >
+      <if test="title != null" >
+        title = #{title},
+      </if>
+      <if test="des != null" >
+        des = #{des},
+      </if>
+      <if test="author != null" >
+        author = #{author},
+      </if>
+      <if test="op1 != null" >
+        op1 = #{op1},
+      </if>
+      <if test="op2 != null" >
+        op2 = #{op2},
+      </if>
+      <if test="op3 != null" >
+        op3 = #{op3},
+      </if>
+      <if test="op4 != null" >
+        op4 = #{op4},
+      </if>
+      <if test="op5 != null" >
+        op5 = #{op5},
+      </if>
+      <if test="op6 != null" >
+        op6 = #{op6},
+      </if>
+      <if test="op1Num != null" >
+        op1_num = #{op1Num},
+      </if>
+      <if test="op2Num != null" >
+        op2_num = #{op2Num},
+      </if>
+      <if test="op3Num != null" >
+        op3_num = #{op3Num},
+      </if>
+      <if test="op4Num != null" >
+        op4_num = #{op4Num},
+      </if>
+      <if test="op5Num != null" >
+        op5_num = #{op5Num},
+      </if>
+      <if test="op6Num != null" >
+        op6_num = #{op6Num},
+      </if>
+      <if test="mySelect != null" >
+        my_select = #{mySelect},
+      </if>
+      <if test="creatDate != null" >
+        creat_date = #{creatDate},
+      </if>
+      <if test="resultDate != null" >
+        result_date = #{resultDate},
+      </if>
+      <if test="useOpNum != null" >
+        use_op_num = #{useOpNum},
+      </if>
+      <if test="resultOpNum != null" >
+        result_op_num = #{resultOpNum},
+      </if>
+      <if test="caiKind != null" >
+        cai_kind = #{caiKind},
+      </if>
+      <if test="state != null" >
+        state = #{state},
+      </if>
+      <if test="content != null" >
+        content = #{content},
+      </if>
+    </set>
+    where id = #{id}
+  </update>
+
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.comic.web.bean.PublicCai" >
+    update public_cai
+    set title = #{title,jdbcType=VARCHAR},
+      des = #{des,jdbcType=VARCHAR},
+      author = #{author,jdbcType=VARCHAR},
+      op1 = #{op1,jdbcType=VARCHAR},
+      op2 = #{op2,jdbcType=VARCHAR},
+      op3 = #{op3,jdbcType=VARCHAR},
+      op4 = #{op4,jdbcType=VARCHAR},
+      op5 = #{op5,jdbcType=VARCHAR},
+      op6 = #{op6,jdbcType=VARCHAR},
+      op1_num = #{op1Num,jdbcType=INTEGER},
+      op2_num = #{op2Num,jdbcType=INTEGER},
+      op3_num = #{op3Num,jdbcType=INTEGER},
+      op4_num = #{op4Num,jdbcType=INTEGER},
+      op5_num = #{op5Num,jdbcType=INTEGER},
+      op6_num = #{op6Num,jdbcType=INTEGER},
+      creat_date = #{creatDate,jdbcType=TIMESTAMP},
+      result_date = #{resultDate,jdbcType=TIMESTAMP},
+      use_op_num = #{useOpNum,jdbcType=INTEGER},
+      result_op_num = #{resultOpNum,jdbcType=INTEGER},
+      cai_kind = #{caiKind,jdbcType=INTEGER},
+      state = #{state,jdbcType=INTEGER},
+      content = #{content,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.comic.web.bean.PublicCai" >
+    update public_cai
+    set title = #{title,jdbcType=VARCHAR},
+      des = #{des,jdbcType=VARCHAR},
+      author = #{author,jdbcType=VARCHAR},
+      op1 = #{op1,jdbcType=VARCHAR},
+      op2 = #{op2},
+      op3 = #{op3,jdbcType=VARCHAR},
+      op4 = #{op4,jdbcType=VARCHAR},
+      op5 = #{op5,jdbcType=VARCHAR},
+      op6 = #{op6,jdbcType=VARCHAR},
+      op1_num = #{op1Num,jdbcType=INTEGER},
+      op2_num = #{op2Num,jdbcType=INTEGER},
+      op3_num = #{op3Num,jdbcType=INTEGER},
+      op4_num = #{op4Num,jdbcType=INTEGER},
+      op5_num = #{op5Num,jdbcType=INTEGER},
+      op6_num = #{op6Num,jdbcType=INTEGER},
+      creat_date = #{creatDate,jdbcType=TIMESTAMP},
+      result_date = #{resultDate,jdbcType=TIMESTAMP},
+      use_op_num = #{useOpNum,jdbcType=INTEGER},
+      result_op_num = #{resultOpNum,jdbcType=INTEGER},
+      cai_kind = #{caiKind,jdbcType=INTEGER},
+      state = #{state,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
