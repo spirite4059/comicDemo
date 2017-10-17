@@ -1,0 +1,92 @@
+<div id="add-window" title="添加猜猜信息" class="easyui-window">
+	<form id="addForm" method="post" >
+		<table cellpadding="5">
+			<tr>
+				<td>标题：</td>
+				<td><input class="easyui-validatebox textbox" type="text" name="title" data-options="required:true"/><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>作者：</td>
+				<td><input class="easyui-validatebox textbox"  type="text" name="author" data-options="required:true"/><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>简介：</td>
+				<td><input class="easyui-validatebox textbox"  type="text" name="desc" data-options="required:true"/><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>猜猜内容：</td>
+				<td colspan="3">
+					<input class="easyui-textbox" name="content" data-options="multiline:true" style="height:70px"/>
+				</td>
+			</tr>
+			<tr>
+				<td>选项1</td>
+				<td><input class="easyui-validatebox textbox" type="text" name="op1" /><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>选项2</td>
+				<td><input class="easyui-validatebox textbox" type="text" name="op2" /><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>选项3</td>
+				<td><input class="easyui-validatebox textbox" type="text" name="op3" /><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>选项4</td>
+				<td><input class="easyui-validatebox textbox" type="text" name="op4" /><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>选项5</td>
+				<td><input class="easyui-validatebox textbox" type="text" name="op5" /><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>选项6</td>
+				<td><input class="easyui-validatebox textbox" type="text" name="op6" /><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>你的选择(数字)</td>
+				<td><input class="easyui-validatebox textbox" type="text" name="mySelect" data-options="required:true"/><label style="color: red"> *</label></td>
+			</tr>
+			<tr>
+				<td>结束时间</td>
+				<td><input  name="resultDate" id="datetime" data-options="parser:w3" data-options="required:true" class="easyui-datetimebox"/></td>
+			</tr>
+		</table>
+	</form>
+
+	<div style="text-align:center;padding:5px">
+		<a id="add_save" href="javascript:void(0)" class="easyui-linkbutton" onclick="addCheckSave('publicCaiSave');">保存</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" onclick="cancel()">关闭</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+	function ww3(date){
+		var y = date.getFullYear();
+		var m = date.getMonth()+1;
+		var d = date.getDate();
+		var h = date.getHours();
+		var str = y+'-'+(m<10?('0'+m):m)+'-'+(d<10?('0'+d):d)+':'+(h<10?('0'+h):h);
+		return str;
+	}
+	function w3(s){
+		if (!s) return new Date();
+		var y = s.substring(0,4);
+		var m =s.substring(5,7);
+		var d = s.substring(8,10);
+		var h = s.substring(11,14);
+		var min = s.substring(15,17);
+		var sec = s.substring(18,20);
+		if (!isNaN(y) && !isNaN(m) && !isNaN(d) && !isNaN(h) && !isNaN(min) && !isNaN(sec)){
+			var return_date =new Date(y,m-1,d,h,min,sec);  //要返回的时间
+			var cur_date=new Date();  //当前时间
+			if(return_date<cur_date)
+			{	alert('选择时间要大于当前时间');
+				return cur_date;
+			}
+			return return_date;
+		} else {
+			return new Date();
+		}
+	}
+</script>
